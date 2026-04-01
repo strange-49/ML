@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from collections import Counter
 
+
 data = np.random.rand(100)
 
 labels = ["Class1" if x <= 0.5 else "Class2" for x in data[:50]]
